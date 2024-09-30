@@ -1,5 +1,5 @@
 # Semantic-Yet-Seo-Friendly-Graph-Bar
-Learn how to use a custom font family to create rating stars with no JavaScript, divs or SVGs.
+Learn how to use a custom font to create a graph bar with no JavaScript, divs or SVGs.
 
 Read the full blog post [here](https://cyberillo.com/semantic-yet-seo-friendly-graph-bar/).
 
