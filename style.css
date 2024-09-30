@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "decbar";
+  src: url("https://yoursite.com/fonts/decbar/decbar.eot");
+  src: url("https://yoursite.com/fonts/decbar/decbar.eot?#iefix") format("embedded-opentype"),
+    url("https://yoursite.com/fonts/decbar/decbar.woff2") format("woff2"), url("https://yoursite.com/fonts/decbar/decbar.woff") format("woff"),
+    url("https://yoursite.com/fonts/decbar/decbar.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "graphbar";
+  src: url("https://yoursite.com/fonts/graphbar/graphbar.eot");
+  src: url("https://yoursite.com/fonts/graphbar/graphbar.eot?#iefix") format("embedded-opentype"),
+    url("https://yoursite.com/fonts/graphbar/graphbar.woff2") format("woff2"), url("https://yoursite.com/fonts/graphbar/graphbar.woff") format("woff"),
+    url("https://yoursite.com/fonts/graphbar/graphbar.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.graphbar {
+    display: inline-block;
+    font-family: decbar;
+    line-height: 1em;
+    position: relative;
+    font-style: normal;
+    color: #5e17eb;
+    font-size: 1.2em;
+    text-align: left;
+    text-shadow: none;
+    z-index: 1;
+    top: 2px;
+}
+.graphbar strong {
+    display: block;
+    position: absolute;
+    left: 0px;
+    color: #5e17eb;
+    text-indent: 0;
+}
+.graphbar strong:first-letter {
+    font-family: graphbar;
+    position: absolute;
+    left: 0px;
+    font-style: normal;
+    z-index: 3;
+}
+li:hover .graphbar:before {
+    content: "\25";
+        color: #fa6605;
+    position: absolute;
+    font-family: graphbar;
+    font-weight: bold;
+    z-index: -1;
+}
